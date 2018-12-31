@@ -28,7 +28,7 @@ function Bio() {
               }}
             />
             <p>
-              Some frontender thoughts
+              Some <a href="/whoami/">frontender</a> thoughts
               {/* by <strong>{author}</strong> */}
               <br />
               <a href={`https://twitter.com/${social.twitter}`} target='_blank'>

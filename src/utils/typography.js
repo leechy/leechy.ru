@@ -8,6 +8,10 @@ Wordpress2016.overrideThemeStyles = () => {
     },
     'html': {
       backgroundColor: '#ccc'
+    },
+    'footer': {
+      fontSize: '0.8rem',
+      marginTop: '5rem'
     }
   }
 }
