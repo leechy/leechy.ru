@@ -14,8 +14,11 @@ Wordpress2016.overrideThemeStyles = () => {
       marginTop: '5rem',
     },
     code: {
-      fontSize: '1.25rem',
-      color: 'coral',
+      fontSize: '1rem',
+      color: '#369',
+    },
+    pre: {
+      overflow: 'auto',
     },
   }
 }

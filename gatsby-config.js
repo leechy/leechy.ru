@@ -6,7 +6,7 @@ module.exports = {
     siteUrl: `https://www.leechy.ru/`,
     social: {
       twitter: `andreykalechev`,
-      github: `leechy`
+      github: `leechy`,
     },
   },
   plugins: [
@@ -75,6 +75,15 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
-    `gatsby-plugin-twitter`
+    `gatsby-plugin-twitter`,
+    {
+      resolve: `gatsby-plugin-yandex-metrika`,
+      options: {
+        trackingId: '52143076',
+        webvisor: true,
+        trackHash: true,
+        version: 2,
+      },
+    },
   ],
 }
